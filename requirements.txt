@@ -1,0 +1,18 @@
+# ============================================
+# Hand Detector Project
+# ============================================
+# 适用于: handTest.py, hand_detector.py
+# 生成日期: 2026-02-26
+# ============================================
+
+# 计算机视觉核心库
+opencv-python>=4.8.0,<4.12.0
+
+# Google MediaPipe 手部识别
+# 重要: 本项目使用了 mp.solutions.hands / drawing_utils / drawing_styles
+#        等 Legacy Solutions API，该 API 自 0.10.15 起逐步弃用。
+#        请务必使用 0.10.14 或以下版本以确保 solutions 模块正常工作。
+mediapipe>=0.10.0,<=0.10.14
+
+# 数值计算库 (同时也是 opencv-python 和 mediapipe 的依赖)
+numpy>=1.24.0,<2.0.0
